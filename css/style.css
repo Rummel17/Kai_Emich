@@ -1,14 +1,31 @@
 .jumbotron--size {
   width: 50%;
 }
-.container-fluid .jumbotron {
-  border-radius: 0px;
+.jumbotron {
+  color: #f0f0f0;
+  background-color: #141117;
+  margin-top: 10%;
+  width: 100%;
 }
-
+.adjust {
+  width: 50%;
+  height: auto;
+}
+.btn-primary {
+  background-color: #570A04;
+  border: #3e0a06;
+  width: 100%;
+  margin-top: 2rem;
+}
+.btn-primary:hover {
+  background-color: #7d0f06;
+}
 .container-fluid {
-  background-image: url("../images/drinking.jpg");
+  background-image: url("../images/deppschaess.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
+  display: flex;
+  justify-content: center;
 }
