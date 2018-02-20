@@ -21,11 +21,19 @@
   background-color: #7d0f06;
 }
 .container-fluid {
-  background-image: url("../images/deppschaess.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
   display: flex;
   justify-content: center;
+}
+.item {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-inner {
+  height: 900px;
 }
