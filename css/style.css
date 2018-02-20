@@ -1,0 +1,14 @@
+.jumbotron--size {
+  width: 50%;
+}
+.container-fluid .jumbotron {
+  border-radius: 0px;
+}
+
+.container-fluid {
+  background-image: url("../images/drinking.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
