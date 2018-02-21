@@ -51,7 +51,7 @@
 .carousel-caption h1 {
   font-size: 1rem;
   color: white;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
 }
 
 
@@ -75,6 +75,7 @@ display: none;
   .carousel-caption h1 {
     font-size: 4rem;
     color: white;
+    margin-bottom: 10rem;
   }
   .big {
     font-size: 6rem;
