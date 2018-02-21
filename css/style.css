@@ -49,17 +49,12 @@
 
 
 .carousel-caption h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
 }
-.big {
-  font-size: 6rem;
-  font-weight: bold;
-  color: black;
-}
 
-.adjust-carousel{
-}
+
+
 
 .btn {
   margin-bottom: 0;
@@ -67,9 +62,17 @@
 .margin-bottom {
   margin-bottom: 10rem;
 }
-@media(min-width: 1024px) {
+ .container-fluid, .row, .col {
+  padding: 0;
+  margin: 0;
+}
+.el h1 {
+display: none;
+}
+
+@media(min-width: 768px) {
   .carousel-caption h1 {
-    font-size: 10rem;
+    font-size: 4rem;
     color: white;
   }
   .big {
@@ -98,4 +101,14 @@
 .sumo img {
   max-width: 100%;
   height: auto;
+}
+
+.el h1 {
+display: block;
+font-size: 5rem;
+color: pink;
+text-align: center;
+font-weight: bold;
+}
+
 }
